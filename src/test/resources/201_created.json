@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "parkingSpotNumber": {
+      "type": "string"
+    },
+    "licensePlateCar": {
+      "type": "string"
+    },
+    "brandCar": {
+      "type": "string"
+    },
+    "modelCar": {
+      "type": "string"
+    },
+    "colorCar": {
+      "type": "string"
+    },
+    "registrationDate": {
+      "type": "string"
+    },
+    "responsibleName": {
+      "type": "string"
+    },
+    "apartment": {
+      "type": "string"
+    },
+    "block": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "parkingSpotNumber",
+    "licensePlateCar",
+    "brandCar",
+    "modelCar",
+    "colorCar",
+    "registrationDate",
+    "responsibleName",
+    "apartment",
+    "block"
+  ]
+}
