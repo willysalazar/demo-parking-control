@@ -1,1 +1,1 @@
-web: bundle exec thin start -p $PORT
+web: java -jar target/demo-parking-control-0.0.1-SNAPSHOT.jar
