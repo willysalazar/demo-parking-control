@@ -3,7 +3,6 @@ package com.example.parkingcontrol.controllers;
 import com.example.parkingcontrol.dtos.ParkingSpotDto;
 import com.example.parkingcontrol.models.ParkingSpotModel;
 import com.example.parkingcontrol.services.ParkingSpotService;
-import jakarta.validation.Valid;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -14,6 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Optional;
